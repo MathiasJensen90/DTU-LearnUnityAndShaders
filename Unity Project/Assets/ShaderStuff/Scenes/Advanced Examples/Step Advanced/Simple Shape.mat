@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Simple color
-  m_Shader: {fileID: -6465566751694194690, guid: 447ec875835bade4fa65bc7a0f0d5cc9,
+  m_Name: Simple Shape
+  m_Shader: {fileID: -6465566751694194690, guid: 69c6af2063991c3459726df4bf21e731,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -35,12 +35,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Bottom: 0.12
+    - _Hight: 0.32
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors:
-    - _Color: {r: 0.7169812, g: 0.25432542, b: 0.25432542, a: 0}
+    - _Right: 0.2
+    - _Top: 0.38
+    - _Width: -0.04
+    - _left: 0.59
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &2600297932153906644
+--- !u!114 &9014218524845689335
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Simple color
-  m_Shader: {fileID: -6465566751694194690, guid: 447ec875835bade4fa65bc7a0f0d5cc9,
+  m_Name: Lerp
+  m_Shader: {fileID: -6465566751694194690, guid: 64dde9bbc983b574f8a4adecca2b533f,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -35,12 +35,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Float: 0.752
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Color: {r: 0.7169812, g: 0.25432542, b: 0.25432542, a: 0}
+    - _Color: {r: 0.735849, g: 0.093716584, b: 0.093716584, a: 0}
+    - _Color_1: {r: 0.36792448, g: 0.13363287, b: 0.13363287, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &2600297932153906644
+--- !u!114 &9148726593341729156
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

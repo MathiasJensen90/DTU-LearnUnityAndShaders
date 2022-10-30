@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Simple color
-  m_Shader: {fileID: -6465566751694194690, guid: 447ec875835bade4fa65bc7a0f0d5cc9,
+  m_Name: Disolve
+  m_Shader: {fileID: -6465566751694194690, guid: 12ec6240862c04e4aa5d4d6fbff4bf59,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -37,10 +37,9 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors:
-    - _Color: {r: 0.7169812, g: 0.25432542, b: 0.25432542, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &2600297932153906644
+--- !u!114 &336797344587008458
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

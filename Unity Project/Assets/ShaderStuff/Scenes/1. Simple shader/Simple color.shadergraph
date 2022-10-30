@@ -28,16 +28,26 @@
             "m_Id": "56d7080548e94aceba1ed0da9ec27051"
         },
         {
-            "m_Id": "2aab218a10c44a1681d6b9c45a8d77ee"
+            "m_Id": "696273cbac4445aea58e7b8ba94090bf"
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "b56a2612d97c410eb7f2aeef805bf9dc"
+        },
+        {
+            "m_Id": "013b41bda9244183ad30830951ed93b9"
+        },
+        {
+            "m_Id": "bae64c13023341ffb143bea5caf1cfae"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "2aab218a10c44a1681d6b9c45a8d77ee"
+                    "m_Id": "696273cbac4445aea58e7b8ba94090bf"
                 },
                 "m_SlotId": 0
             },
@@ -99,10 +109,36 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "013b41bda9244183ad30830951ed93b9",
+    "m_Title": "Task Advanced",
+    "m_Content": "- Combine two colors\n- Make a vector3 and plug it into the Base Color. How do you get blue color using a vector3? ",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 307.20001220703127,
+        "y": -139.60000610351563,
+        "width": 281.20001220703127,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalUnlitSubTarget",
+    "m_ObjectId": "2aa58d30141f439c90323503575ef878"
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
-    "m_ObjectId": "068282a671934c34ab08634a46da5c98",
+    "m_ObjectId": "4639e79936714a1e9ae904bbc3f24122",
     "m_Id": 0,
-    "m_DisplayName": "Color",
+    "m_DisplayName": "Out",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -120,47 +156,6 @@
         "w": 0.0
     },
     "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalUnlitSubTarget",
-    "m_ObjectId": "2aa58d30141f439c90323503575ef878"
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
-    "m_ObjectId": "2aab218a10c44a1681d6b9c45a8d77ee",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Property",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -477.0000305175781,
-            "y": 255.00001525878907,
-            "width": 105.0,
-            "height": 33.99998474121094
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "068282a671934c34ab08634a46da5c98"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Property": {
-        "m_Id": "e231c9cb8e624fcdadef55b0ec236499"
-    }
 }
 
 {
@@ -227,6 +222,49 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "VertexDescription.Position"
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ColorNode",
+    "m_ObjectId": "696273cbac4445aea58e7b8ba94090bf",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Color",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -458.3999938964844,
+            "y": 199.99998474121095,
+            "width": 208.80001831054688,
+            "height": 128.80006408691407
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "4639e79936714a1e9ae904bbc3f24122"
+        }
+    ],
+    "synonyms": [
+        "rgba"
+    ],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Color": {
+        "color": {
+            "r": 0.6226415038108826,
+            "g": 0.0,
+            "b": 0.030810950323939325,
+            "a": 0.0
+        },
+        "mode": 0
+    }
 }
 
 {
@@ -383,6 +421,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "b56a2612d97c410eb7f2aeef805bf9dc",
+    "m_Title": "Task",
+    "m_Content": "Make the color of the plane red",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 4.800000190734863,
+        "y": -139.60000610351563,
+        "width": 281.20001220703127,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PositionMaterialSlot",
     "m_ObjectId": "ba476079fcab44a2a60f481e01a0b306",
     "m_Id": 0,
@@ -403,6 +461,26 @@
     },
     "m_Labels": [],
     "m_Space": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "bae64c13023341ffb143bea5caf1cfae",
+    "m_Title": "TIP",
+    "m_Content": "Click the \"Save Asset\" button to see the change in the scene",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -682.4000244140625,
+        "y": -276.79998779296877,
+        "width": 281.20001220703127,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
