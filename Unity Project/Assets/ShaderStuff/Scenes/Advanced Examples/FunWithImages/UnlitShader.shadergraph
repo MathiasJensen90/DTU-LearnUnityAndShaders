@@ -100,6 +100,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "64ba902f6f3d4fe99f0bc97433a312a1"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "8bab2cb4cf1a429aadf21a5c896e9bd7"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "b93dd6e6839b48dfb264c780a26706cf"
                 },
                 "m_SlotId": 0
@@ -138,26 +152,12 @@
                 },
                 "m_SlotId": 0
             }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "d93b3ec87d644b2db062427b8cd6f50a"
-                },
-                "m_SlotId": 2
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "8bab2cb4cf1a429aadf21a5c896e9bd7"
-                },
-                "m_SlotId": 0
-            }
         }
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 0.0
+            "x": 165.3333282470703,
+            "y": -219.33335876464845
         },
         "m_Blocks": [
             {
@@ -173,8 +173,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": 165.3333282470703,
+            "y": -19.33333969116211
         },
         "m_Blocks": [
             {
