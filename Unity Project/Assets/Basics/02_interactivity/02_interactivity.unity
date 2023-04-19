@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -326,7 +326,6 @@ GameObject:
   - component: {fileID: 14916502}
   - component: {fileID: 14916501}
   - component: {fileID: 14916500}
-  - component: {fileID: 14916499}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -349,21 +348,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &14916499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14916497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &14916500
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -440,7 +424,6 @@ GameObject:
   - component: {fileID: 49683126}
   - component: {fileID: 49683125}
   - component: {fileID: 49683124}
-  - component: {fileID: 49683123}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -463,21 +446,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &49683123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 49683121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &49683124
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -553,8 +521,8 @@ GameObject:
   - component: {fileID: 83291577}
   - component: {fileID: 83291581}
   - component: {fileID: 83291580}
-  - component: {fileID: 83291579}
   - component: {fileID: 83291578}
+  - component: {fileID: 83291579}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -668,7 +636,6 @@ GameObject:
   - component: {fileID: 108899274}
   - component: {fileID: 108899273}
   - component: {fileID: 108899272}
-  - component: {fileID: 108899271}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -691,21 +658,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &108899271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108899269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &108899272
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -899,8 +851,8 @@ GameObject:
   - component: {fileID: 181456196}
   - component: {fileID: 181456200}
   - component: {fileID: 181456199}
-  - component: {fileID: 181456198}
   - component: {fileID: 181456197}
+  - component: {fileID: 181456198}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -1013,8 +965,8 @@ GameObject:
   - component: {fileID: 221704862}
   - component: {fileID: 221704866}
   - component: {fileID: 221704865}
-  - component: {fileID: 221704864}
   - component: {fileID: 221704863}
+  - component: {fileID: 221704864}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -1127,8 +1079,8 @@ GameObject:
   - component: {fileID: 321336732}
   - component: {fileID: 321336736}
   - component: {fileID: 321336735}
-  - component: {fileID: 321336734}
   - component: {fileID: 321336733}
+  - component: {fileID: 321336734}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -1242,7 +1194,6 @@ GameObject:
   - component: {fileID: 436083889}
   - component: {fileID: 436083888}
   - component: {fileID: 436083887}
-  - component: {fileID: 436083886}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -1265,21 +1216,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &436083886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436083884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &436083887
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1355,8 +1291,8 @@ GameObject:
   - component: {fileID: 494402159}
   - component: {fileID: 494402163}
   - component: {fileID: 494402162}
-  - component: {fileID: 494402161}
   - component: {fileID: 494402160}
+  - component: {fileID: 494402161}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -1469,8 +1405,8 @@ GameObject:
   - component: {fileID: 525048614}
   - component: {fileID: 525048618}
   - component: {fileID: 525048617}
-  - component: {fileID: 525048616}
   - component: {fileID: 525048615}
+  - component: {fileID: 525048616}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -1584,7 +1520,6 @@ GameObject:
   - component: {fileID: 555385924}
   - component: {fileID: 555385923}
   - component: {fileID: 555385922}
-  - component: {fileID: 555385921}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -1607,21 +1542,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &555385921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555385919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &555385922
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1697,8 +1617,8 @@ GameObject:
   - component: {fileID: 614283035}
   - component: {fileID: 614283039}
   - component: {fileID: 614283038}
-  - component: {fileID: 614283037}
   - component: {fileID: 614283036}
+  - component: {fileID: 614283037}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -1811,8 +1731,8 @@ GameObject:
   - component: {fileID: 619718994}
   - component: {fileID: 619718998}
   - component: {fileID: 619718997}
-  - component: {fileID: 619718996}
   - component: {fileID: 619718995}
+  - component: {fileID: 619718996}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -1925,8 +1845,8 @@ GameObject:
   - component: {fileID: 785878549}
   - component: {fileID: 785878553}
   - component: {fileID: 785878552}
-  - component: {fileID: 785878551}
   - component: {fileID: 785878550}
+  - component: {fileID: 785878551}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -2039,8 +1959,8 @@ GameObject:
   - component: {fileID: 793879739}
   - component: {fileID: 793879743}
   - component: {fileID: 793879742}
-  - component: {fileID: 793879741}
   - component: {fileID: 793879740}
+  - component: {fileID: 793879741}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -2153,8 +2073,8 @@ GameObject:
   - component: {fileID: 794883062}
   - component: {fileID: 794883066}
   - component: {fileID: 794883065}
-  - component: {fileID: 794883064}
   - component: {fileID: 794883063}
+  - component: {fileID: 794883064}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -2366,7 +2286,6 @@ GameObject:
   - component: {fileID: 880719353}
   - component: {fileID: 880719352}
   - component: {fileID: 880719351}
-  - component: {fileID: 880719350}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -2389,21 +2308,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &880719350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880719348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &880719351
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2479,8 +2383,8 @@ GameObject:
   - component: {fileID: 910983686}
   - component: {fileID: 910983690}
   - component: {fileID: 910983689}
-  - component: {fileID: 910983688}
   - component: {fileID: 910983687}
+  - component: {fileID: 910983688}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -2593,8 +2497,8 @@ GameObject:
   - component: {fileID: 930743310}
   - component: {fileID: 930743314}
   - component: {fileID: 930743313}
-  - component: {fileID: 930743312}
   - component: {fileID: 930743311}
+  - component: {fileID: 930743312}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -2707,8 +2611,8 @@ GameObject:
   - component: {fileID: 946402964}
   - component: {fileID: 946402968}
   - component: {fileID: 946402967}
-  - component: {fileID: 946402966}
   - component: {fileID: 946402965}
+  - component: {fileID: 946402966}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -2822,7 +2726,6 @@ GameObject:
   - component: {fileID: 947077692}
   - component: {fileID: 947077691}
   - component: {fileID: 947077690}
-  - component: {fileID: 947077689}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -2845,21 +2748,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &947077689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947077687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &947077690
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2935,8 +2823,8 @@ GameObject:
   - component: {fileID: 1028498025}
   - component: {fileID: 1028498029}
   - component: {fileID: 1028498028}
-  - component: {fileID: 1028498027}
   - component: {fileID: 1028498026}
+  - component: {fileID: 1028498027}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -3049,8 +2937,8 @@ GameObject:
   - component: {fileID: 1114511577}
   - component: {fileID: 1114511581}
   - component: {fileID: 1114511580}
-  - component: {fileID: 1114511579}
   - component: {fileID: 1114511578}
+  - component: {fileID: 1114511579}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -3164,7 +3052,6 @@ GameObject:
   - component: {fileID: 1114976062}
   - component: {fileID: 1114976061}
   - component: {fileID: 1114976060}
-  - component: {fileID: 1114976059}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -3187,21 +3074,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1114976059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1114976057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &1114976060
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3278,7 +3150,6 @@ GameObject:
   - component: {fileID: 1120586832}
   - component: {fileID: 1120586831}
   - component: {fileID: 1120586830}
-  - component: {fileID: 1120586829}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -3301,21 +3172,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1120586829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120586827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &1120586830
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3391,8 +3247,8 @@ GameObject:
   - component: {fileID: 1137515439}
   - component: {fileID: 1137515443}
   - component: {fileID: 1137515442}
-  - component: {fileID: 1137515441}
   - component: {fileID: 1137515440}
+  - component: {fileID: 1137515441}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -3505,8 +3361,8 @@ GameObject:
   - component: {fileID: 1200509056}
   - component: {fileID: 1200509060}
   - component: {fileID: 1200509059}
-  - component: {fileID: 1200509058}
   - component: {fileID: 1200509057}
+  - component: {fileID: 1200509058}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -3620,7 +3476,6 @@ GameObject:
   - component: {fileID: 1255284831}
   - component: {fileID: 1255284830}
   - component: {fileID: 1255284829}
-  - component: {fileID: 1255284828}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -3643,21 +3498,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1255284828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1255284826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &1255284829
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3733,8 +3573,8 @@ GameObject:
   - component: {fileID: 1261971225}
   - component: {fileID: 1261971229}
   - component: {fileID: 1261971228}
-  - component: {fileID: 1261971227}
   - component: {fileID: 1261971226}
+  - component: {fileID: 1261971227}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -3847,8 +3687,8 @@ GameObject:
   - component: {fileID: 1283985725}
   - component: {fileID: 1283985729}
   - component: {fileID: 1283985728}
-  - component: {fileID: 1283985727}
   - component: {fileID: 1283985726}
+  - component: {fileID: 1283985727}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -3961,8 +3801,8 @@ GameObject:
   - component: {fileID: 1296395876}
   - component: {fileID: 1296395880}
   - component: {fileID: 1296395879}
-  - component: {fileID: 1296395878}
   - component: {fileID: 1296395877}
+  - component: {fileID: 1296395878}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -4075,8 +3915,8 @@ GameObject:
   - component: {fileID: 1509370995}
   - component: {fileID: 1509370999}
   - component: {fileID: 1509370998}
-  - component: {fileID: 1509370997}
   - component: {fileID: 1509370996}
+  - component: {fileID: 1509370997}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -4190,7 +4030,6 @@ GameObject:
   - component: {fileID: 1584268772}
   - component: {fileID: 1584268771}
   - component: {fileID: 1584268770}
-  - component: {fileID: 1584268769}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -4213,21 +4052,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1584268769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584268767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &1584268770
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4364,7 +4188,6 @@ GameObject:
   - component: {fileID: 1611291876}
   - component: {fileID: 1611291875}
   - component: {fileID: 1611291874}
-  - component: {fileID: 1611291873}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -4387,21 +4210,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1611291873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1611291871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &1611291874
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4477,8 +4285,8 @@ GameObject:
   - component: {fileID: 1670906011}
   - component: {fileID: 1670906015}
   - component: {fileID: 1670906014}
-  - component: {fileID: 1670906013}
   - component: {fileID: 1670906012}
+  - component: {fileID: 1670906013}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -4591,8 +4399,8 @@ GameObject:
   - component: {fileID: 1715828974}
   - component: {fileID: 1715828978}
   - component: {fileID: 1715828977}
-  - component: {fileID: 1715828976}
   - component: {fileID: 1715828975}
+  - component: {fileID: 1715828976}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -4706,7 +4514,6 @@ GameObject:
   - component: {fileID: 1803840836}
   - component: {fileID: 1803840835}
   - component: {fileID: 1803840834}
-  - component: {fileID: 1803840833}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -4729,21 +4536,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1803840833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1803840831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &1803840834
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4820,7 +4612,6 @@ GameObject:
   - component: {fileID: 1815107182}
   - component: {fileID: 1815107181}
   - component: {fileID: 1815107180}
-  - component: {fileID: 1815107179}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -4843,21 +4634,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1815107179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1815107177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &1815107180
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4933,8 +4709,8 @@ GameObject:
   - component: {fileID: 1817150108}
   - component: {fileID: 1817150112}
   - component: {fileID: 1817150111}
-  - component: {fileID: 1817150110}
   - component: {fileID: 1817150109}
+  - component: {fileID: 1817150110}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -5047,8 +4823,8 @@ GameObject:
   - component: {fileID: 1820364999}
   - component: {fileID: 1820365003}
   - component: {fileID: 1820365002}
-  - component: {fileID: 1820365001}
   - component: {fileID: 1820365000}
+  - component: {fileID: 1820365001}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -5162,7 +4938,6 @@ GameObject:
   - component: {fileID: 1822132826}
   - component: {fileID: 1822132825}
   - component: {fileID: 1822132824}
-  - component: {fileID: 1822132823}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -5185,21 +4960,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1822132823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1822132821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &1822132824
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5276,7 +5036,6 @@ GameObject:
   - component: {fileID: 1830108378}
   - component: {fileID: 1830108377}
   - component: {fileID: 1830108376}
-  - component: {fileID: 1830108375}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -5299,21 +5058,6 @@ Transform:
   m_Father: {fileID: 1589481880}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1830108375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830108373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ea243805337c84ab7ea86fbb9925bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doit: 0
-  num: 16
-  radius: 3
 --- !u!136 &1830108376
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5389,8 +5133,8 @@ GameObject:
   - component: {fileID: 1865896081}
   - component: {fileID: 1865896085}
   - component: {fileID: 1865896084}
-  - component: {fileID: 1865896083}
   - component: {fileID: 1865896082}
+  - component: {fileID: 1865896083}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -5503,8 +5247,8 @@ GameObject:
   - component: {fileID: 1897957113}
   - component: {fileID: 1897957117}
   - component: {fileID: 1897957116}
-  - component: {fileID: 1897957115}
   - component: {fileID: 1897957114}
+  - component: {fileID: 1897957115}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -5617,8 +5361,8 @@ GameObject:
   - component: {fileID: 1934823218}
   - component: {fileID: 1934823222}
   - component: {fileID: 1934823221}
-  - component: {fileID: 1934823220}
   - component: {fileID: 1934823219}
+  - component: {fileID: 1934823220}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -5731,8 +5475,8 @@ GameObject:
   - component: {fileID: 1971337951}
   - component: {fileID: 1971337955}
   - component: {fileID: 1971337954}
-  - component: {fileID: 1971337953}
   - component: {fileID: 1971337952}
+  - component: {fileID: 1971337953}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -5845,8 +5589,8 @@ GameObject:
   - component: {fileID: 2049542748}
   - component: {fileID: 2049542752}
   - component: {fileID: 2049542751}
-  - component: {fileID: 2049542750}
   - component: {fileID: 2049542749}
+  - component: {fileID: 2049542750}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
@@ -5959,8 +5703,8 @@ GameObject:
   - component: {fileID: 2145327052}
   - component: {fileID: 2145327056}
   - component: {fileID: 2145327055}
-  - component: {fileID: 2145327054}
   - component: {fileID: 2145327053}
+  - component: {fileID: 2145327054}
   m_Layer: 0
   m_Name: Capsule(Clone)
   m_TagString: Untagged
