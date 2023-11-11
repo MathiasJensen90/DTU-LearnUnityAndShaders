@@ -43,14 +43,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Disolve: 0
+    - _Disolve: 0.439
     - _Fresnel_Intensity: 9.95
-    - _ObjectNormals: 0.028
+    - _ObjectNormals: 0.0368
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _UseFresnel: 1
+    - _UseFresnel: 0
     m_Colors:
-    - _Color: {r: 0, g: 17.689302, b: 13.409633, a: 0}
+    - _Color: {r: 0, g: 110.13088, b: 83.607216, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1242239743471266630
 MonoBehaviour:
